@@ -12,6 +12,13 @@
 		E51ABA3422F3D96300449075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51ABA3222F3D96300449075 /* Main.storyboard */; };
 		E51ABA3622F3D96500449075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51ABA3522F3D96500449075 /* Assets.xcassets */; };
 		E51ABA3922F3D96500449075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51ABA3722F3D96500449075 /* LaunchScreen.storyboard */; };
+		E51ABA4122F3DD2100449075 /* JJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ABA4022F3DD2100449075 /* JJBaseViewController.swift */; };
+		E51ABA4322F3DD4900449075 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ABA4222F3DD4900449075 /* CategoryViewController.swift */; };
+		E51ABA4722F3DEE700449075 /* Specs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ABA4622F3DEE700449075 /* Specs.swift */; };
+		E51ABA4A22F4274000449075 /* JJFacebookMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ABA4922F4274000449075 /* JJFacebookMeViewController.swift */; };
+		E51ABA4C22F42B7300449075 /* FBMeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ABA4B22F42B7300449075 /* FBMeBaseCell.swift */; };
+		E51ABA4E22F4314000449075 /* FBMeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ABA4D22F4314000449075 /* FBMeUser.swift */; };
+		E51ABA5022F431E700449075 /* TableKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ABA4F22F431E700449075 /* TableKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		E51ABA3522F3D96500449075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E51ABA3822F3D96500449075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E51ABA3A22F3D96500449075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E51ABA4022F3DD2100449075 /* JJBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJBaseViewController.swift; sourceTree = "<group>"; };
+		E51ABA4222F3DD4900449075 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		E51ABA4622F3DEE700449075 /* Specs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specs.swift; sourceTree = "<group>"; };
+		E51ABA4922F4274000449075 /* JJFacebookMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJFacebookMeViewController.swift; sourceTree = "<group>"; };
+		E51ABA4B22F42B7300449075 /* FBMeBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBMeBaseCell.swift; sourceTree = "<group>"; };
+		E51ABA4D22F4314000449075 /* FBMeUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBMeUser.swift; sourceTree = "<group>"; };
+		E51ABA4F22F431E700449075 /* TableKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,45 @@
 		E51ABA2D22F3D96300449075 /* SwiftLearningDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E51ABA4822F4271F00449075 /* FacebookMe */,
+				E51ABA4522F3DE0500449075 /* Home */,
+				E51ABA4422F3DDD800449075 /* Helper */,
 				E51ABA2E22F3D96300449075 /* AppDelegate.swift */,
 				E51ABA3022F3D96300449075 /* ViewController.swift */,
 				E51ABA3222F3D96300449075 /* Main.storyboard */,
 				E51ABA3522F3D96500449075 /* Assets.xcassets */,
 				E51ABA3722F3D96500449075 /* LaunchScreen.storyboard */,
 				E51ABA3A22F3D96500449075 /* Info.plist */,
+				E51ABA4022F3DD2100449075 /* JJBaseViewController.swift */,
+				E51ABA4222F3DD4900449075 /* CategoryViewController.swift */,
 			);
 			path = SwiftLearningDemo;
+			sourceTree = "<group>";
+		};
+		E51ABA4422F3DDD800449075 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E51ABA4622F3DEE700449075 /* Specs.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E51ABA4522F3DE0500449075 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E51ABA4822F4271F00449075 /* FacebookMe */ = {
+			isa = PBXGroup;
+			children = (
+				E51ABA4922F4274000449075 /* JJFacebookMeViewController.swift */,
+				E51ABA4B22F42B7300449075 /* FBMeBaseCell.swift */,
+				E51ABA4D22F4314000449075 /* FBMeUser.swift */,
+				E51ABA4F22F431E700449075 /* TableKeys.swift */,
+			);
+			path = FacebookMe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E51ABA4A22F4274000449075 /* JJFacebookMeViewController.swift in Sources */,
+				E51ABA4322F3DD4900449075 /* CategoryViewController.swift in Sources */,
+				E51ABA4E22F4314000449075 /* FBMeUser.swift in Sources */,
+				E51ABA4C22F42B7300449075 /* FBMeBaseCell.swift in Sources */,
 				E51ABA3122F3D96300449075 /* ViewController.swift in Sources */,
+				E51ABA5022F431E700449075 /* TableKeys.swift in Sources */,
+				E51ABA4122F3DD2100449075 /* JJBaseViewController.swift in Sources */,
+				E51ABA4722F3DEE700449075 /* Specs.swift in Sources */,
 				E51ABA2F22F3D96300449075 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
