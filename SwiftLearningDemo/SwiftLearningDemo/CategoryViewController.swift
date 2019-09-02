@@ -100,6 +100,9 @@ extension CategoryViewController: UITableViewDataSource{
         case "Project 03 - FacebookMe":
             navigationController?.pushViewController(JJFacebookMeViewController(), animated: true)
             break
+        case "Project 16 - SpotifySignIn":
+            navigationController?.pushViewController(SporityViewController(), animated: true)
+            break;
         default:
             break
         }

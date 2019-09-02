@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50B3063231CF45300F63471 /* SporityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50B3062231CF45300F63471 /* SporityViewController.swift */; };
+		E50B3065231CF4CC00F63471 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50B3064231CF4CC00F63471 /* VideoSplashViewController.swift */; };
+		E50B3068231CF54300F63471 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E50B3067231CF54300F63471 /* moments.mp4 */; };
+		E50B306A231D002C00F63471 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50B3069231D002C00F63471 /* VideoCutter.swift */; };
 		E51ABA2F22F3D96300449075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ABA2E22F3D96300449075 /* AppDelegate.swift */; };
 		E51ABA3122F3D96300449075 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ABA3022F3D96300449075 /* ViewController.swift */; };
 		E51ABA3422F3D96300449075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51ABA3222F3D96300449075 /* Main.storyboard */; };
@@ -22,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E50B3062231CF45300F63471 /* SporityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SporityViewController.swift; sourceTree = "<group>"; };
+		E50B3064231CF4CC00F63471 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
+		E50B3067231CF54300F63471 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
+		E50B3069231D002C00F63471 /* VideoCutter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
 		E51ABA2B22F3D96300449075 /* SwiftLearningDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearningDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E51ABA2E22F3D96300449075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E51ABA3022F3D96300449075 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E50B3061231CF42400F63471 /* SpotifySignin */ = {
+			isa = PBXGroup;
+			children = (
+				E50B3066231CF51F00F63471 /* Files */,
+				E50B3062231CF45300F63471 /* SporityViewController.swift */,
+				E50B3064231CF4CC00F63471 /* VideoSplashViewController.swift */,
+				E50B3069231D002C00F63471 /* VideoCutter.swift */,
+			);
+			path = SpotifySignin;
+			sourceTree = "<group>";
+		};
+		E50B3066231CF51F00F63471 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				E50B3067231CF54300F63471 /* moments.mp4 */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
 		E51ABA2222F3D96300449075 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +95,7 @@
 		E51ABA2D22F3D96300449075 /* SwiftLearningDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E50B3061231CF42400F63471 /* SpotifySignin */,
 				E51ABA4822F4271F00449075 /* FacebookMe */,
 				E51ABA4522F3DE0500449075 /* Home */,
 				E51ABA4422F3DDD800449075 /* Helper */,
@@ -168,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E51ABA3922F3D96500449075 /* LaunchScreen.storyboard in Resources */,
+				E50B3068231CF54300F63471 /* moments.mp4 in Resources */,
 				E51ABA3622F3D96500449075 /* Assets.xcassets in Resources */,
 				E51ABA3422F3D96300449075 /* Main.storyboard in Resources */,
 			);
@@ -183,10 +212,13 @@
 				E51ABA4A22F4274000449075 /* JJFacebookMeViewController.swift in Sources */,
 				E51ABA4322F3DD4900449075 /* CategoryViewController.swift in Sources */,
 				E51ABA4E22F4314000449075 /* FBMeUser.swift in Sources */,
+				E50B3063231CF45300F63471 /* SporityViewController.swift in Sources */,
 				E51ABA4C22F42B7300449075 /* FBMeBaseCell.swift in Sources */,
 				E51ABA3122F3D96300449075 /* ViewController.swift in Sources */,
+				E50B306A231D002C00F63471 /* VideoCutter.swift in Sources */,
 				E51ABA5022F431E700449075 /* TableKeys.swift in Sources */,
 				E51ABA4122F3DD2100449075 /* JJBaseViewController.swift in Sources */,
+				E50B3065231CF4CC00F63471 /* VideoSplashViewController.swift in Sources */,
 				E51ABA4722F3DEE700449075 /* Specs.swift in Sources */,
 				E51ABA2F22F3D96300449075 /* AppDelegate.swift in Sources */,
 			);
